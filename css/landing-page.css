@@ -78,6 +78,19 @@ h6 {
   justify-content: start;
 }
 
+.hero {
+  background-image: url("/img/Path-427@2x.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-position-x: 870px;
+  background-position-y: 350px;
+}
+
+.image-hero {
+  max-height: 700px;
+}
+
 .image-hero img {
   position: relative;
   right: 300px;
@@ -92,16 +105,33 @@ h6 {
 }
 
 #imagen-magento {
-  margin: 0 auto;
+  margin: 0 0 0 auto;
+  padding: 50px;
   box-shadow: 0 20px 20px #7682b72e;
 }
 
 #imagen-shopify {
-  margin: 0 auto;
+  margin: 100px auto 0 0;
+  padding: 50px;
+  box-shadow: 0 20px 20px #7682b72e;
+  position: static;
+  z-index: 1;
+}
+
+.magento-shopify {
+  background-image: url("/img/Path-427.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  position: relative;
 }
 
 #exampleInputMensaje1 {
   height: 200px;
+}
+
+#form-header {
+  margin-bottom: 80px;
+  margin-top: 150px;
 }
 
 @media (max-width: 767px) {
@@ -188,24 +218,86 @@ h6 {
     margin-bottom: 0;
   }
 }
-.container_cards{
-    /* background: url(../img/Group224.svg); */
+.container_cards {
+  /* background: url(../img/Group224.svg); */
 }
-.card {
-    margin: 100px auto;
-    width: 200px;
-    height: 200px;   
-    -webkit-box-shadow: -1px 2px 31px 14px rgba(204,198,204,1);
-    -moz-box-shadow: -1px 2px 31px 14px rgba(204,198,204,1);
-     box-shadow: -1px 2px 31px 14px rgba(204,198,204,1);
+/* .servicios {
+  background-image: url("/img/Group224.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  z-index: -1; */
+/* background-position-x: 870px;
+  background-position-y: 350px; */
+/* } */
+
+/* .card-3 {
+  background-image: url("/img/Group224.svg");
+} */
+
+.card-1,
+.card-2,
+.card-3 {
+  margin: 100px auto;
+  width: 255px;
+  height: 280px;
+  -webkit-box-shadow: 0px 0px 17px 2px rgba(214, 207, 214, 1);
+  -moz-box-shadow: 0px 0px 17px 2px rgba(214, 207, 214, 1);
+  box-shadow: 0px 0px 17px 2px rgba(214, 207, 214, 1);
+}
+
+.card-1 {
+  margin-right: 0;
+}
+
+.card-1 img {
+  width: 30px;
+  padding-top: 40px;
+}
+
+.card-2 img {
+  width: 120px;
+  padding-top: 27px;
+}
+
+.card-2 .card-body {
+  padding-top: 10px;
+}
+
+.card-3 img {
+  padding-top: 40px;
+}
+
+.card-body {
+  padding-top: 30px;
+}
+
+.card-body h5 {
+  font-size: 20px;
+}
+
+.card-body p {
+  font-size: 16px;
+  padding-top: 8px;
+  color: #737373;
+}
+
+.card-3 {
+  margin-left: 0;
 }
 
 .caja__1 {
-    padding-left: 100px;
+  padding-left: 100px;
 }
 
 .caja__2 {
-    padding-top: 100px;
+  padding-top: 100px;
+}
+
+.p-form-header {
+  font-size: 18px;
+  font-family: Raleway;
+  padding-top: 10px;
 }
 
 footer {
@@ -220,4 +312,12 @@ footer hr {
 #footer-p {
   margin-top: 10px;
   /* text-align: center; */
+}
+
+#card-right {
+  background-image: url("/img/Group224.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  z-index: 1;
 }
