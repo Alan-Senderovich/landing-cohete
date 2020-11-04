@@ -105,17 +105,34 @@ h6 {
 }
 
 #imagen-magento {
-  margin: 0 auto;
+  margin: 0 0 0 auto;
+  padding: 50px;
   box-shadow: 0 20px 20px #7682b72e;
 }
 
 #imagen-shopify {
-  margin: 0 auto;
+  margin: 100px auto 0 0;
+  padding: 50px;
+  box-shadow: 0 20px 20px #7682b72e;
+  position: static;
+  z-index: 1;
 }
 
-/* #exampleInputMensaje1 {
+.magento-shopify {
+  background-image: url("/img/Path-427.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  position: relative;
+}
+
+#exampleInputMensaje1 {
   height: 200px;
-} */
+}
+
+#form-header {
+  margin-bottom: 80px;
+  margin-top: 150px;
+}
 
 @media (max-width: 767px) {
   .intro-message {
@@ -204,15 +221,15 @@ h6 {
 .container_cards {
   /* background: url(../img/Group224.svg); */
 }
-.servicios {
+/* .servicios {
   background-image: url("/img/Group224.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
-  z-index: -1;
-  /* background-position-x: 870px;
+  z-index: -1; */
+/* background-position-x: 870px;
   background-position-y: 350px; */
-}
+/* } */
 
 /* .card-3 {
   background-image: url("/img/Group224.svg");
@@ -277,6 +294,12 @@ h6 {
   padding-top: 100px;
 }
 
+.p-form-header {
+  font-size: 18px;
+  font-family: Raleway;
+  padding-top: 10px;
+}
+
 footer {
   padding: 50px 0;
   background-color: white;
@@ -289,4 +312,12 @@ footer hr {
 #footer-p {
   margin-top: 10px;
   /* text-align: center; */
+}
+
+#card-right {
+  background-image: url("/img/Group224.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  z-index: 1;
 }
