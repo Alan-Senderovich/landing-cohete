@@ -113,9 +113,9 @@ h6 {
   margin: 0 auto;
 }
 
-#exampleInputMensaje1 {
+/* #exampleInputMensaje1 {
   height: 200px;
-}
+} */
 
 @media (max-width: 767px) {
   .intro-message {
