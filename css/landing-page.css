@@ -144,22 +144,19 @@ h6 {
   }
 }
 
-.network-name {
+/* .network-name {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 2px;
-}
+} */
 
 .content-section-a {
   padding: 50px 0;
-  /* background-color: #f8f8f8; */
 }
 
 .content-section-b {
   padding: 50px 0;
-  /* border-top: 1px solid #e7e7e7; */
-  /* border-bottom: 1px solid #e7e7e7; */
 }
 
 .section-heading {
@@ -172,68 +169,13 @@ h6 {
   border-top: 3px solid #e7e7e7;
 }
 
-.banner {
-  padding: 100px 0;
-  color: #f8f8f8;
-  background: url(../img/banner-bg.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.banner h2 {
-  margin: 0;
-  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-size: 3em;
-}
-
-.banner ul {
-  margin-bottom: 0;
-}
-
-.banner-social-buttons {
-  float: right;
-  margin-top: 0;
-}
-
 @media (max-width: 1199px) {
-  ul.banner-social-buttons {
-    float: left;
-    margin-top: 15px;
-  }
+ 
 }
 
 @media (max-width: 767px) {
-  .banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 3em;
-  }
-
-  ul.banner-social-buttons > li {
-    display: block;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-
-  ul.banner-social-buttons > li:last-child {
-    margin-bottom: 0;
-  }
+ 
 }
-.container_cards {
-  /* background: url(../img/Group224.svg); */
-}
-/* .servicios {
-  background-image: url("/img/Group224.svg");
-  background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: bottom;
-  z-index: -1; */
-/* background-position-x: 870px;
-  background-position-y: 350px; */
-/* } */
-
-/* .card-3 {
-  background-image: url("/img/Group224.svg");
-} */
 
 .card-1,
 .card-2,
@@ -311,7 +253,6 @@ footer hr {
 
 #footer-p {
   margin-top: 10px;
-  /* text-align: center; */
 }
 
 #card-right {
