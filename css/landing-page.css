@@ -47,7 +47,7 @@ h6 {
 .intro-message h1 {
   letter-spacing: -3px;
   margin: 0;
-  font-size: 5em;
+  font-size: 60px;
   font-weight: 400;
   line-height: 1.2;
 }
@@ -89,12 +89,14 @@ h6 {
 
 .image-hero {
   max-height: 700px;
+  max-width: 100%;
 }
 
 .image-hero img {
   position: relative;
-  right: 300px;
+  right: 150px;
   bottom: 150px;
+  max-width: 100%;
 }
 
 .sub-title-2 {
@@ -105,17 +107,19 @@ h6 {
 }
 
 #imagen-magento {
-  margin: 0 0 0 auto;
+  margin: 0 auto;
   padding: 50px;
   box-shadow: 0 20px 20px #7682b72e;
+  background-color: white;
 }
 
 #imagen-shopify {
-  margin: 100px auto 0 0;
+  margin: 100px auto 0;
   padding: 50px;
   box-shadow: 0 20px 20px #7682b72e;
   position: static;
   z-index: 1;
+  background-color: white;
 }
 
 .magento-shopify {
@@ -126,22 +130,13 @@ h6 {
 }
 
 #exampleInputMensaje1 {
-  height: 200px;
+  padding-bottom: 200px;
+  padding-top: 25px;
 }
 
 #form-header {
   margin-bottom: 80px;
   margin-top: 150px;
-}
-
-@media (max-width: 767px) {
-  .intro-message {
-    padding-bottom: 15%;
-  }
-
-  .intro-message > h1 {
-    font-size: 3em;
-  }
 }
 
 /* .network-name {
@@ -169,23 +164,17 @@ h6 {
   border-top: 3px solid #e7e7e7;
 }
 
-@media (max-width: 1199px) {
- 
-}
-
-@media (max-width: 767px) {
- 
-}
-
 .card-1,
 .card-2,
 .card-3 {
   margin: 100px auto;
-  width: 255px;
+  width: 100%;
+  max-width: 250px;
   height: 280px;
   -webkit-box-shadow: 0px 0px 17px 2px rgba(214, 207, 214, 1);
   -moz-box-shadow: 0px 0px 17px 2px rgba(214, 207, 214, 1);
   box-shadow: 0px 0px 17px 2px rgba(214, 207, 214, 1);
+  background-color: white;
 }
 
 .card-1 {
@@ -240,6 +229,7 @@ h6 {
   font-size: 18px;
   font-family: Raleway;
   padding-top: 10px;
+  color: #151d41;
 }
 
 footer {
@@ -261,4 +251,141 @@ footer hr {
   background-position-x: right;
   background-position-y: bottom;
   z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .logo-hero {
+    /* height: 100px; */
+  }
+
+  .intro-header {
+    margin: 0;
+  }
+
+  .intro-message {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .intro-message p {
+    font-size: 16px;
+    margin: 0 22%;
+  }
+
+  /* .image-hero {
+    width: 100%;
+    align-content: center;
+  }
+
+  #col-img-hero {
+    align-content: center;
+  } */
+
+  .intro-message > h1 {
+    font-size: 40px;
+  }
+
+  .intro-message button {
+    margin: 0 auto;
+  }
+
+  .servicios-h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 25% 50px;
+    line-height: 1.5;
+  }
+
+  .card-1 {
+    margin: 50px auto 0;
+  }
+
+  .card-2 {
+    margin: 50px auto 0;
+  }
+
+  .card-3 {
+    margin: 50px auto 0;
+  }
+
+  .tu-ecommerce-h1 {
+    font-size: 25px;
+    margin-bottom: 12px;
+    margin-top: 75px;
+  }
+
+  .sub-title-2 {
+    font-size: 17px;
+    margin: 0 14%;
+    padding-bottom: 40px;
+  }
+
+  #imagen-magento {
+    margin: 0 auto;
+  }
+
+  #imagen-shopify {
+    margin: 50px auto;
+  }
+
+  .caja__1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .img-responsive {
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .caja__2 h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .caja__2 p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .caja__2 img {
+    margin-left: 36%;
+  }
+
+  .contact h1 {
+    font-size: 22px;
+  }
+
+  #form-header {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .p-form-header {
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 70px 0 20px;
+  }
+
+  #footer-end {
+    display: flex;
+    margin: 0 auto;
+    max-width: 60%;
+  }
+
+  #footer-end img {
+    width: 100px;
+  }
+
+  #footer-p p {
+    font-size: 11.5px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 1280px) {
 }
