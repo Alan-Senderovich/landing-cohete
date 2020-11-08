@@ -76,6 +76,7 @@ h6 {
   padding: 0 20px 0 20px;
   margin-top: 15px;
   justify-content: start;
+  box-shadow: 8px 8px 17px -1px #136b5c;
 }
 
 .hero {
@@ -316,8 +317,9 @@ footer hr {
 
   .sub-title-2 {
     font-size: 17px;
-    margin: 0 14%;
-    padding-bottom: 40px;
+    margin: 0px 10%;
+    padding-bottom: 10px;
+    padding-top: 25px;
   }
 
   #imagen-magento {
@@ -399,10 +401,26 @@ footer hr {
   #col-img-hero {
     display: none;
   }
+
+  .p-desktop {
+    display: none;
+  }
+
+  .sub-title-2 {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
   #imagen-sm {
+    display: none;
+  }
+
+  .p-mobile {
+    display: none;
+  }
+
+  .sub-title-2-mobile {
     display: none;
   }
 }
